@@ -12,7 +12,7 @@ self.addEventListener(
 					cache.addAll(
 						[
 							'script.js',
-							'static/img/utpp.png',
+							'/static/img/utpp.png',
                             'static/img/aplicacion_movil_nativa_1.jpg', 
                             'static/img/aplicacion_movil_nativa_2.jpg ',
                             'static/img/aplicacion_multiplataforma_1.jpg ',
@@ -53,6 +53,7 @@ self.addEventListener(
                             'info/parametros_configuracion.html ',
                             'info/tabla_comparativa.html',
                             '/static/favicons/favicon.ico',
+                            'logos.png'
 
 						]
 					);
