@@ -1,6 +1,3 @@
-
-
-
 var nombreCache = 'holaMundo';
 self.addEventListener(
 	'install',
@@ -52,7 +49,7 @@ self.addEventListener(
                             'info/herramientas_utilizadas.html ',
                             'info/parametros_configuracion.html ',
                             'info/tabla_comparativa.html',
-                            '/static/favicons/favicon.ico',
+                            'static/favicons/favicon.ico',
                             'logos.png'
 
 						]
