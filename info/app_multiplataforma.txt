@@ -1,0 +1,207 @@
+
+<h1 class="text-center mt-4">Aplicación Multiplataforma</h1>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 mt-4">
+            
+            <h4>¿Qué es una aplicación multiplataforma?</h4>
+
+            <p>
+                Una aplicación multiplataforma es un tipo de software que está 
+                diseñado para funcionar en múltiples sistemas operativos o plataformas 
+                informáticas sin necesidad de ser reescrito o adaptado significativamente 
+                para cada una de ellas. Estas aplicaciones son desarrolladas de manera 
+                que puedan ejecutarse de manera nativa en diferentes sistemas operativos 
+                y hardware sin problemas significativos.
+            </p>
+
+            <h4>
+                Características 
+                <i class="fa-solid fa-list-check me-2" style="color: #602a5d;"></i>
+            </h4>
+
+            <ul>
+                <li>
+                    <b>Compatibilidad con múltiples plataformas: </b>
+                    La característica más destacada de una aplicación multiplataforma 
+                    es su capacidad para funcionar en diferentes sistemas operativos y 
+                    dispositivos sin modificaciones significativas en el código fuente.
+                </li>
+                <li>
+                    <b>Código compartido: </b>
+                    Estas aplicaciones permiten a los desarrolladores compartir 
+                    una gran parte del código fuente entre las distintas versiones
+                    de la aplicación para cada plataforma.
+                </li>
+                <li>
+                    <b>Menor costo de desarrollo: </b>
+                    Al escribir y mantener un único código base en lugar de 
+                    múltiples versiones para cada plataforma, las aplicaciones 
+                    multiplataforma a menudo resultan más económicas en términos 
+                    de desarrollo y mantenimiento.
+                </li>
+            </ul>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <img src="static/img/aplicacion_multiplataforma_2.jpg" class="mt-5" style="width: 500px; height: 300px;">
+
+
+        </div>
+
+        <div class="col-md-6 mt-4">
+            
+            <img src="static/img/aplicacion_multiplataforma_1.jpg" style="width: 600px; height: 300px;">
+
+            <table class="table">
+                <tr>
+                    <td>
+                        <h4 class="mt-3">
+                            Ventajas 
+                            <i class="fa-solid fa-thumbs-up" style="color: #8c54ab;"></i>
+                        </h4>
+                    </td>
+                    <td>
+                        <h4 class="mt-3">
+                            Desventajas 
+                            <i class="fa-solid fa-thumbs-down" style="color: #602a5d;"></i>
+                        </h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Alcance de mercado más amplio.
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Limitaciones de acceso a características nativas.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Menos costo y tiempo de desarrollo.
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Rendimiento variable
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Actualizaciones más sencillas.
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Dependencia de herramientas y frameworks
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                       Reutilización de código.
+                    </td>
+                </tr>
+            </table>
+
+            <h4 class="mt-4">
+                Herramientas de Desarrollo 
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </h4>
+
+            <p>
+                Existen diversas herramientas y frameworks de desarrollo multiplataforma 
+                que permiten a los desarrolladores crear aplicaciones que funcionen en 
+                múltiples sistemas operativos y dispositivos. Algunas de las herramientas 
+                más populares incluyen:
+            </p>
+
+            <ol>
+
+                <li>
+                    <b>Frameworks de desarrollo multiplataforma:</b>
+                    <ul>
+                        <li>React Native</li>
+                        <li>Flutter</li>
+                        <li>Xamarin</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <b>Herramientas de Desarrollo Integrado (IDE):</b>
+                    <ul>
+                        <li>
+                            IDEs como Visual Studio Code, Android Studio, Xcode (para iOS), 
+                            y JetBrains IntelliJ IDEA con el complemento Flutter son muy 
+                            útiles para el desarrollo multiplataforma, ya que ofrecen soporte 
+                            para múltiples lenguajes y plataformas.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <b>Plataformas de Backend como Servicio (BaaS):</b>
+                    <ul>
+                        <li>
+                            Servicios como Firebase, AWS Amplify, y Microsoft Azure ofrecen 
+                            soluciones backend que se pueden utilizar en aplicaciones 
+                            multiplataforma.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <b>Bibliotecas y Frameworks Frontend:</b>
+                    <ul>
+                        <li>
+                            Utilizar bibliotecas y frameworks frontend como Angular, 
+                            Vue.js o React para construir la interfaz de usuario de tu 
+                            aplicación multiplataforma.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <b>Herramientas de Pruebas y Depuración:</b>
+                    <ul>
+                        <li>
+                            Herramientas de prueba como Appium, Detox y Selenium pueden 
+                            ayudar a probar y depurar aplicaciones multiplataforma en 
+                            diferentes dispositivos y sistemas operativos.
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <b>Plataformas de Distribución:</b>
+                    <ul>
+                        <li>
+                            App Store (para iOS) y Google Play Store (para Android) son 
+                            las principales tiendas de aplicaciones. Además, puedes 
+                            considerar otras plataformas de distribución como Microsoft Store 
+                            y plataformas web para PWAs.
+                        </li>
+                    </ul>
+                </li>
+
+            </ol>
+
+        </div>
+        
+
+
+
+    </div>
+
+</div>

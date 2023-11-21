@@ -1,0 +1,139 @@
+
+<h1 class="text-center mt-4">Aplicación Orientada a Servicios</h1>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-6 mt-4">
+
+            <h4>¿Qué es una aplicación orientada a servicios?</h4>
+
+            <p>
+                Una Aplicación Orientada a Servicios (SOA, por sus siglas en inglés, 
+                Service-Oriented Architecture) es un enfoque arquitectónico para diseñar 
+                sistemas de software en el que los componentes de software se organizan y 
+                comunican entre sí a través de servicios. 
+            </p>
+
+            <h4>
+                Características 
+                <i class="fa-solid fa-list-check me-2" style="color: #4497c1;"></i>
+            </h4>
+
+            <ul>
+                <li>
+                    <b>Descomposición en Servicios: </b>
+                    En SOA, una aplicación se divide en servicios independientes y autónomos. 
+                    Estos servicios encapsulan funciones específicas y se diseñan para ser 
+                    reutilizables en toda la aplicación o incluso en diferentes aplicaciones.
+                </li>
+                <li>
+                    <b>Estándares de Comunicación: </b>
+                    SOA utiliza estándares de comunicación, como el protocolo HTTP, XML y SOAP 
+                    (Simple Object Access Protocol), para permitir la comunicación entre 
+                    servicios de manera uniforme.
+                </li>
+                <li>
+                    <b>Reutilización: </b>
+                    Los servicios se diseñan para ser reutilizables en múltiples partes 
+                    de una aplicación o incluso en diferentes aplicaciones dentro de la 
+                    organización. Esto promueve la eficiencia en el desarrollo de software.
+                </li>
+                <li>
+                    <b>Escalabilidad: </b>
+                    La seguridad es una consideración importante en SOA. Los servicios pueden 
+                    implementar medidas de seguridad, como autenticación y autorización, 
+                    para proteger los datos y garantizar el acceso autorizado.
+                </li>
+                 <li>
+                    <b>Componentes Autónomos: </b>
+                    Los servicios son componentes autónomos que pueden evolucionar de 
+                    forma independiente sin afectar a otros servicios o a la aplicación 
+                    en su conjunto.
+                </li>
+            </ul>
+
+            <img src="static/img/aplicacion_orientada_servicios_2.jpg" style="width: 400px; height: 300px;">
+
+        </div>
+        
+        <div class="col-md-6 mt-4">
+            
+            <img src="static/img/aplicacion_orientada_servicios_1.png" style="width: 400px; height: 300px;">
+
+            <table class="table">
+                <tr>
+                    <td>
+                        <h4 class="mt-3">
+                            Ventajas 
+                            <i class="fa-solid fa-thumbs-up" style="color: #4497c1;"></i>
+                        </h4>
+                    </td>
+                    <td>
+                        <h4 class="mt-3">
+                            Desventajas 
+                            <i class="fa-solid fa-thumbs-down" style="color: #163b4e;"></i>
+                        </h4>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Flexibilidad y adaptabilidad
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Complejidad inicial y costos.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Gestión y monitoreo efectivos.
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Necesidad de planificación y diseño cuidadosos.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-circle-check me-2" style="color: #388623;"></i>
+                        Posibilidad de implementar medidas de seguridad.
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-circle-xmark me-2" style="color: #c72931;"></i>
+                        Complejidad en la seguridad.
+                    </td>
+                </tr>
+            </table>
+
+            <h4 class="mt-4">
+                Herramientas de Desarrollo 
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </h4>
+
+            <p>
+                En el desarrollo de aplicaciones SOA, se utilizan una 
+                variedad de herramientas y tecnologías para implementar y 
+                administrar los servicios. Estas herramientas pueden incluir:
+            </p>
+
+            <ul>
+                <li>Entornos de Desarrollo Integrado (IDE)</li>
+                <li>Contenedores de Servicios</li>
+                <li>Bibliotecas y Frameworks</li>
+                <li>Herramientas de Diseño de Interfaces Web</li>
+                <li>Bases de Datos y Sistemas de Almacenamiento</li>
+                <li>Plataformas de Gestión de Servicios</li>
+                <li>Herramientas de Pruebas y Depuración</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+

@@ -1,0 +1,21 @@
+{
+    "name": "Aplicaciones Web Progresivas - Producto 2",
+    "short_name": "PWA-P2",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "theme_color": "#87C4A2",
+    "background_color": "#87C4A2",
+
+    "icons": [
+        {
+        "src": "./static/img/logos.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        },
+        {
+        "src": "./static/img/utpp.png ",
+        "sizes": "144x144",
+        "type": "image/png"
+        }
+    ]
+}

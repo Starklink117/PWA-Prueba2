@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./static/favicons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./static/favicons/favicon.ico" type="image/x-icon">
+    <title>PWA</title>
+    <!-- lo viejo -->
+    <!-- <link rel="stylesheet" href="static/bootstrap-5.3.2-dist/css/bootstrap.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="static/fontawesome-free-6.4.2-web/css/all.css"> -->
+    <!-- lo nuevo -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/estilos.css">
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="img-fluid rounded-circle" src="static/img/utpp.png" alt="UTP" style="width: 50px; height: 50px;">
+            </a>    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5 p-3" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"> <i class="fa-solid fa-house"></i> Inicio </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-computer"></i>
+                        Tipos de Aplicaciones
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="nav-link" aria-current="page" onclick="loadDoc('info/app_orientada_servicios.txt', myFunction1)"> <i class="fa-solid fa-handshake me-2"></i> Aplicacion Orientadas a Servicios </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link" onclick="loadDoc('info/app_multiplataforma.txt', myFunction1)"><i class="fa-solid fa-laptop me-2"></i>Aplicación Multiplataforma</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link" onclick="loadDoc('info/app_progresiva.html', myFunction1)"><i class="fa-solid fa-spinner me-2"></i>Aplicación Web Progresiva</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link" onclick="loadDoc('info/aplicacion_web.html', myFunction1)"><i class="fa-solid fa-earth-asia me-2"></i>Aplicación Web</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="nav-link" onclick="loadDoc('info/app_movil_nativa.html', myFunction1)"><i class="fa-solid fa-mobile-screen-button me-2"></i>Aplicación Móvil Nativa</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                        </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" onclick="loadDoc('info/tabla_comparativa.html', myFunction1)"> <i class="fa-solid fa-table"></i> Tabla Comparativa </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gears"></i>
+                            Configuración del entorno de desarrollo
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="nav-link" aria-current="page" onclick="loadDoc('info/herramientas_utilizadas.html', myFunction1)"> <i class="fa-solid fa-screwdriver-wrench"></i> Herramientas utilizadas </a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="nav-link" onclick="loadDoc('info/parametros_configuracion.html', myFunction1)"><i class="fa-solid fa-person-digging"></i>Parámetros de configuración</a></li>
+                            </ul>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" onclick="loadDoc('info/bibliografias.html', myFunction1)"><i class="fa-solid fa-book-atlas"></i> Bibliografías </a>
+                        </li>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="vista_principal">
+        <div class="container mt-5 text-center">
+            <!-- Imagen centrada -->
+            <img src="static/img/utpp.png" class="img-fluid" alt="Imagen" style="width: 250xp; height: 250px;">
+        
+            <!-- Título -->
+            <h1 class="font-weight-bold mt-4"><u>Aplicaciones Web Progresivas</u></h1>
+        
+            <!-- Subtítulos -->
+            <h3 class="mt-4"> <i class="fa-solid fa-school"></i>   División de Tecnologías de la Información</h3>
+            <h3><i class="fa-solid fa-network-wired"></i>     Ingeniería en Desarrollo y Gestión de Software</h3>
+        
+            <!-- Subtítulo en negritas -->
+            <h3 class="font-weight-bold mt-4">Producto 1</h3>
+        
+            <!-- Subtítulo en negritas -->
+            <h4 class="font-weight-bold mt-4"><i class="fa-solid fa-graduation-cap"></i>Alumnos</h4>
+        
+            <!-- Lista de alumnos -->
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li><i class="fa-solid fa-user-graduate"></i>   Cordero Cariño Marco Aurelio – <strong>UTP0142825</strong></li>
+                <li><i class="fa-solid fa-user-graduate"></i>   Martínez Trillo Alexis – <strong>UTP0144672</strong></li>
+                <li><i class="fa-solid fa-user-graduate"></i>   Meléndez Pérez Luis Ángel – <strong>UTP0145531</strong></li>
+                <li><i class="fa-solid fa-user-graduate"></i>   Rodríguez González Jazmín – <strong>UTP0147842</strong></li>
+            </ul>
+        
+            <!-- Subtítulo en negritas -->
+            <h4 class="font-weight-bold mt-4"><i class="fa-solid fa-users-viewfinder"></i>  Grado y Grupo</h4>
+        
+            <!-- Grado y grupo -->
+            <p>10°B</p>
+        
+            <!-- Subtítulo en negritas -->
+            <h4 class="font-weight-bold mt-4"><i class="fa-solid fa-user-tie"></i>  Nombre del Docente</h4>
+        
+            <!-- Nombre del docente -->
+            <p>Javier Nolasco Hernández</p>
+        
+            <!-- Subtítulo en negritas -->
+            <h4 class="font-weight-bold mt-4"><i class="fa-solid fa-calendar-week"></i>    Fecha</h4>
+        
+            <!-- Fecha en mayúsculas -->
+            <p>NOVIEMBRE 2023</p>
+
+                
+        </div>
+    </div>
+
+    <div id="contenido"></div>
+
+<!-- Lo viejo -->
+    <!-- <script src="static/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script> -->
+    <!-- <script src="static/fontawesome-free-6.4.2-web/js/all.js"></script> -->
+
+    <!-- Lo nuevo -->
+    <script src="https://kit.fontawesome.com/fd6126367b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+        function loadDoc(url, cFunction) {
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function() {
+                cFunction(this)
+            }
+            xhttp.open("GET", url, true);
+            xhttp.send();
+        }    
+        function myFunction1(xhttp) {
+            // action goes here
+            document.getElementById("contenido").innerHTML = xhttp.responseText;
+            document.getElementById("vista_principal").style.display = "none"; //ocultar div principal
+
+        }
+
+    </script>
+
+    <script async src="script.js"></script>
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register(
+                'sw.js'
+            ).then(
+                function(registro){
+                    console.log('sw ok',registro.scope);
+                }
+            ).catch(
+                function(error){
+                    console.log('sw fallo',error);
+                }
+            );
+        }
+    </script>
+    
+</body>
+</html>
