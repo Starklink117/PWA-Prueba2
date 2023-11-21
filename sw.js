@@ -12,7 +12,7 @@ self.addEventListener(
 					cache.addAll(
 						[
 							'script.js',
-							'/static/img/utpp.png',
+							'static/img/utpp.png',
                             'static/img/aplicacion_movil_nativa_1.jpg', 
                             'static/img/aplicacion_movil_nativa_2.jpg ',
                             'static/img/aplicacion_multiplataforma_1.jpg ',
