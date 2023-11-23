@@ -57,6 +57,7 @@ self.addEventListener('install', function(evento) {
                 'static/img/p2-1.jpeg', 
                 'static/img/p2-2.jpeg', 
                 'static/img/p2-4.jpeg',
+                'info/parametros_configiracion_sw_manifest.html'
             ]);
         })
     );
