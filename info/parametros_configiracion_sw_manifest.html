@@ -1,0 +1,110 @@
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center">
+                <h1>Parámetros De Configuración SW (Service Worker) y Manifest </h1>
+                <h4>En este apartado de muestra cuales fueron los parámetros y el proceso de configuración de nuestro entorno para implemtar el Service Worker y el Manifest. </h4>
+                <div class="line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="accordion" id="accordionExample">
+
+                <!-- primer acordeon -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <strong>#1. Para el archivo del SW:</strong>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">
+                                  Se creo este código está escrito en JavaScript y se utiliza en el contexto de un Service Worker, que es un script que se ejecuta en segundo plano en el navegador y permite realizar tareas como el control de caché, notificaciones push y otras funciones relacionadas con la mejora del rendimiento y la experiencia del usuario.
+                                </div>
+                              </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-center align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <img src="static/img/p2-1.jpeg" class="img-fluid" alt="..." style="width: 400px; height: 350px">
+                                </div>
+                              </li>
+                          </ol>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- segundo acordeon -->
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <strong>#2.	Para el archivo Script.js:</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Este script carga script.js de forma asíncrona. La palabra clave async indica que la descarga y ejecución del script no bloquearán la carga de la página. Este script puede contener funciones o lógica específica de la página.</div>
+                              </div>
+                            </li>
+
+                          </ol>
+                      </div>
+                    </div>
+                </div>
+
+
+
+                
+                <!-- tercer acordeon -->
+
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <strong>#3.	Para el archivo Manifest.json:</strong>
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">Este es un archivo de manifiesto de aplicación web progresiva (PWA) en formato JSON. El archivo manifest.json proporciona información sobre la aplicación web, como su nombre, iconos, colores temáticos y otras configuraciones importantes para mejorar la experiencia del usuario. A continuación, se explica cada propiedad del manifiesto:</div>
+                                <img src="static/img/p2-3.jpeg" class="img-fluid" alt="..." style="width: 400px; height: 200px">
+                              </div>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                              <div class="ms-2 me-auto">
+                                <div class="fw-bold">
+                                  <b>name:</b> El nombre de la aplicación web. En este caso, es "Aplicaciones Web Progresivas - Producto 2"<br>
+                                  <b>short_name:</b> Un nombre más corto o abreviado para la aplicación. En este caso, es "PWA-P2"<br>
+                                  <b>start_url:</b> La URL de inicio de la aplicación web. En este caso, es "./index.html", lo que sugiere que la aplicación web debería comenzar en el archivo index.html en el directorio raíz<br>
+                                  <b>display:</b> Especifica cómo se debe mostrar la aplicación web. En este caso, "standalone" indica que la aplicación debe abrirse en su propia ventana, sin una barra de navegación<br>
+                                  <b>theme_color:</b> Define el color de fondo de la barra de estado (si es aplicable) y el color de fondo de la pantalla de inicio cuando la aplicación está en modo "standalone". En este caso, es "#87C4A2"<br>
+                                  <b>background_color:</b> Define el color de fondo de la aplicación web. En este caso, es "#87C4A2"<br>
+                                  <b>icons:</b> Una lista de iconos que se utilizarán para representar la aplicación en diferentes contextos<br>
+                                  <b>src:</b> La ruta del archivo de imagen del icono<br>
+                                  <b>sizes:</b> El tamaño del icono<br>
+                                  <b>type:</b> El tipo de archivo de imagen (en este caso, "image/png")<br>
+                                </div>                             
+                              </div>
+                            </li>
+                          </ol>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
